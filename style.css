@@ -1,0 +1,276 @@
+label {
+    margin-top: 10px;
+    margin-left: -5px;
+    font-weight: 700;
+}
+body {
+  background: url(images/pagebackground.jpeg);
+  background-size: cover;
+}
+html {
+  min-height: 100%;
+}
+.big {
+  padding: 0px;
+}
+.navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #064382;
+}
+#navText {
+  padding-top: 10px;
+  color: #FFFFFF;
+  text-align: center;
+}
+#map {
+    height: 400px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    overflow: auto;
+}
+#notificationShow {
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    clear: both;
+}
+#clicky:hover {
+    text-decoration: underline;
+}
+.big {
+    width: 100%;
+}
+.jumbotron {
+    width: 100%;
+    text-align: center;
+    /*background: url(images/banner.jpeg);*/
+    background-color: #064382;
+}
+.jumbotron h1 {
+  font-family: 'Kalam', cursive;
+  font-size: 102px;
+  color: #FFFFFF;
+}
+.user {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: #064382;
+  margin: 40px 10px 30px 10px;
+  border: 1px solid #064382;
+}
+.panel-heading {
+	background: #93D3F6!important;
+}
+#clicky {
+  font-family: 'Kalam','Roboto', sans-serif;
+  font-size: 28px;
+  padding-bottom: 10px;
+  color: #064382;
+}
+.firstChoice {
+    height: 25%;
+    width: 50%;
+    text-align: center;
+    margin: 10px auto;
+    border: 5px solid #064382;
+    border-radius: 4px;
+}
+.loginStyle {
+  text-align: center;
+  margin-left: 110px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+
+}
+.existing {
+    height: 280px;
+    width: 400px;
+    margin: 10px auto;
+    border: 5px solid #064382;
+    border-radius: 4px;
+}
+.new {
+    height: 475px;
+    width: 400px;
+    margin: 10px auto;
+    border: 5px solid #064382;
+    border-radius: 4px;
+    padding-bottom: 5px;
+}
+#visual {
+  width: 75%;
+  height: 75%;
+  border: 5px solid #064382;
+}
+.appInfo {
+  font-family: 'Kalam','Roboto', sans-serif;
+  font-size: 28px;
+}
+.list {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  list-style: none;
+}
+/* Back to Login button Styling */
+#backToLogin {
+  padding: 0;
+}
+#showy {
+  margin-right: 150px;
+  margin-top: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: #064382;
+  border: 1px solid #064382;
+}
+#weather {
+font-family: 'Kalam','Roboto', sans-serif;
+font-size: 24px;
+text-align: center;
+}
+
+.panel-heading {
+    background: #064382!important;
+    vertical-align: middle;
+    position: relative;
+}
+.eventPanel {
+  font-family: 'Kalam','Roboto', sans-serif;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+#warning {
+    color: red;
+    font-weight: 700;
+    z-index: 1000;
+    position: absolute;
+    margin: auto auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 200px;
+    width: 200px;
+    background: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    border: 5px solid #064382;
+}
+/* End */
+.accessGranted {
+    color: green;
+}
+
+.accessDenied {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+.whatAreWe {
+    text-align: center;
+}
+
+.notAs {
+    text-align: left;
+    width: 40%;
+}
+
+.jaunty {
+    float: left;
+    margin-top: 15px;
+/*<<<<<<< Updated upstream
+=======*/
+}
+
+.table{
+  background-color: white;
+
+}
+
+#weather{
+}
+
+/*.list {
+    list-style: none;
+>>>>>>> Stashed changes
+}*/
+.sad {
+    clear: both;
+}
+
+.header {
+    height: 10%;
+    margin-bottom: 50px;
+}
+
+.body {
+    height: 80%;
+}
+
+.footer {
+    background: #000000;
+    height: 10%;
+}
+
+.aubergine {
+    color: #662B4D;
+}
+
+.teal {
+    color: #529E6A;
+}
+
+.coral {
+    color: #E93533;
+}
+
+.ruddy {
+    color: #EB3532;
+}
+
+.tangerine {
+    color: #F07B00;
+}
+
+.purple {
+    color: #A8407C;
+}
+
+.mapBlue {
+    color: #93D3F6;
+}
+
+.mapGreen {
+    color: #9DCD85;
+}
+
+.mapGrey {
+    color: #808080;
+}
+
+.pretty {
+	background: #9DCD85;
+}
+/*<<<<<<< Updated upstream*/
+.map {
+    height: 35vw;
+    width: 100%;
+}
+#map {
+  border: 5px solid #064382;
+}
+/*=======
+
+.map{
+    height: 35vw;
+    width: 100%;
+}
+>>>>>>> Stashed changes*/

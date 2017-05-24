@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Permanent+Marker|Kalam" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+</head>
+
+<body>
+    <div class="big header container">
+        <div class="jumbotron">
+            <h1>Meet Smarter &reg;</h1>
+        </div>
+    </div>
+    <div class="big container">
+        <div class="firstChoice">
+            <button class="btn btn-default user" value="existing" type="submit">Login</button>
+            <button class="btn btn-default user" value="new" type="submit">Sign Up</button>
+            <p id="clicky">About Meet Smarter</p>
+        </div>
+        <div class="row">
+            <div class="existing hidden">
+                <div class="col-lg-5 loginStyle">
+                    <label for="signin">Login</label>
+                    <form role="form" id="signin">
+                        <!-- <form role="form" action="/timeAppendingFunction.html" method="get"> -->
+                        <div class="form-group">
+                            <label for="userName">User Name</label>
+                            <input class="form-control" id="userName" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input class="form-control" id="password" type="password">
+                        </div>
+                        <button class="btn btn-default" id="backForExisting" type="text">Back</button>
+                        <button class="btn btn-default" id="login" type="submit" tabindex="1">Login</button>
+                    </form>
+                </div>
+            </div>
+            <div class="new hidden">
+                <div class="col-lg-5 loginStyle">
+                    <label for="signup">Sign Up</label>
+                    <form role="form" id="signup">
+                        <!-- <form role="form" action="/dbcall.php" method="post"> -->
+                        <div class="form-group">
+                            <label for="userName">User Name</label>
+                            <input class="form-control" id="userNameInput" type="text" placeholder="jSmith">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input class="form-control" id="passwordInput" type="text" placeholder="********">
+                        </div>
+                        <div class="form-group">
+                            <label for="password-confirm">Confirm Password</label>
+                            <input class="form-control" id="passwordConfirm" type="text" placeholder="********">
+                        </div>
+                        <div class="form-group">
+                            <label for="nameInput">Name</label>
+                            <input class="form-control" id="nameInput" type="text" placeholder="Jane Smith">
+                            <br>
+                            <button class="btn btn-default" id="create" type="submit">Submit</button>
+                            <button class="btn btn-default" id="backForCreate" type="text">Back</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="whatAreWe hidden">
+
+                <div class="jaunty col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <img id="visual" src="images/imhere.jpg" class="map" alt="A visual representation of the Meet Smarter's functionality.">
+                </div>
+                <div class="notAs jaunty col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <p class="appInfo mapGrey"><strong>Venue Finder</strong>
+
+                        <ul class="list">
+                            <li>We've narrowed down your venue search to only the best coffee shops that promote productivity.</li>
+                        </ul>
+                    </p>
+                    <p class="appInfo teal"><strong>Visibility</strong>
+                        <ul class="list">
+                            <li>We provide a clear look at who's where, in a clean display of all the daily submissions.</li>
+                        </ul>
+                    </p>
+                    <p class="appInfo coral"><strong>Real-time Updates</strong>
+                        <ul class="list">
+                            <li>Join Slack channel <em>#meetsmarter</em> for notifications from SmarterBot when team members are added to the schedule.</li>
+                        </ul>
+                    </p>
+                    <p class="appInfo purple"><strong>Plan Ahead</strong>
+                        <ul class="list">
+                            <li>Planning on meeting outdoors? Check the weather widget to make sure you won't get rained on.</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" id="backToLogin">
+                  <button class="btn btn-default" id="showy">Back to Login</button>
+                </div>
+            </div>
+        </div>
+          <div id="notificationShow"></div>
+    <nav class="navbar navbar-default navbar-bottom" role="navigation">
+  <div class="container">
+    <p id="navText">&reg; UT Bootcamp<p>
+  </div>
+    </nav>
+    <script type="text/javascript" src="login.js"></script>
+</body>
+
+</html>
